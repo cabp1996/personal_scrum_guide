@@ -8,6 +8,7 @@ import {
 import { MainScreen } from '../screens/mainScreen';
 import { TeamScreen } from '../screens/teamScreen';
 import { FadeTransform } from 'react-animation-components';
+import { EventsScreen } from '../screens/eventsScreen';
 
 export const AppRouter = () => {
     return (
@@ -17,6 +18,7 @@ export const AppRouter = () => {
                     <Switch>
                         <Route exact path="/" component={MainScreen} />
                         <Route exact path="/team" component={TeamScreen} />
+                        <Route exact path="/events" component={EventsScreen} />
                     </Switch>
                 </div>
             </FadeTransform>

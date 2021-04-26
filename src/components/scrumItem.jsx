@@ -8,7 +8,7 @@ export const ScrumItem = ({ history, image, title, description, route }) => {
 
     return (
 
-        <div className="card" onClick={handleClick}>
+        <div className="card card-main" onClick={handleClick}>
             <div className="card-image-container">
                 <img className="card-img-top" src={image} alt={image} />
             </div>

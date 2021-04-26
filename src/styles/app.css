@@ -3,7 +3,14 @@
     text-align: center;
 }
 
-.card{
+.card-secondary{
+    border-color: #438983;
+    border-width: 3px;
+    transition: 0.8s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+}
+
+.card-main{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
     transition: 0.3s;
     cursor: pointer;
@@ -12,7 +19,7 @@
     background-color: #D6EAE9;
 }
 
-.card:hover {
+.card-main:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
 }
 
@@ -21,7 +28,6 @@ h2{
     font-weight: bold;
 }
 
-/* 438983 */
 
 .card-img-top{
     margin-top: 20px;
@@ -33,12 +39,22 @@ h2{
     justify-content: center;
 }
 
-.jumbotron{
+
+.jumbotron-primary{
  
     border-width: 3px;
     border: solid;
     border-color: #438983;
     background-color: #D6EAE9;
+}
+
+
+.jumbotron-secondary{
+    border: solid;
+    border-color: #438983;
+    border-width: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    background-color: white;
 }
 
 ol {
@@ -61,3 +77,13 @@ ol {
     text-align: right;
     content: counter(item) ".";
   }
+
+  .card-header{
+      font-weight: bold;
+      text-align: center;
+      background-color: #D6EAE9;
+  }
+
+tbody{
+    font-size: small;
+}

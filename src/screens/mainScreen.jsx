@@ -8,7 +8,7 @@ const imageArtificat = 'assets/img/document.png';
 export const MainScreen = ({ history }) => {
     return (
         <>
-            <div className="jumbotron">
+            <div className="jumbotron jumbotron-primary">
                 <h2 className="display-5">Scrum</h2>
                 <p className="lead">Marco de trabajo liviano cuyo propósito es desarrollar, mantener y entregar productos complejos.</p>
                 <p> <strong>Valores: </strong>Compromiso, Coraje, Foco, Apertura, Respeto </p>
