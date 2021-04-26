@@ -15,7 +15,7 @@ export const MainScreen = ({ history }) => {
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="text-center">
-                            <strong> <i class="fa fa-list" aria-hidden="true"></i> Usos
+                            <strong> <i className="fa fa-list" aria-hidden="true"></i> Usos
                             </strong>
                             <hr />
                         </div>
@@ -29,7 +29,7 @@ export const MainScreen = ({ history }) => {
                     </div>
                     <div className="col-lg-6">
                         <div className="text-center">
-                            <strong> <i class="fa fa-list" aria-hidden="true"></i> Principios
+                            <strong> <i className="fa fa-list" aria-hidden="true"></i> Principios
                             </strong>
                             <hr />
                         </div>

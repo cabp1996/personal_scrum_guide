@@ -10,11 +10,15 @@ export const ScrumItemPresentation = ({ title, description, extra, icon, extraic
                 <hr />
             </div>
 
-            <p className="text-secondary"><i class={descriptionIconClass} aria-hidden="true"></i> {description}</p>
+            <div className="mr-5 ml-5">
+                <p className="text-secondary"><i className={descriptionIconClass} aria-hidden="true"></i> {description}</p>
 
-            {extra &&
-                <p className="text-secondary"><i class={descriptionExtraIconClass} aria-hidden="true"></i> {extra}</p>
-            }
+                {extra &&
+                    <p className="text-secondary"><i className={descriptionExtraIconClass} aria-hidden="true"></i> {extra}</p>
+                }
+            </div>
+
+
         </div>
     );
 }

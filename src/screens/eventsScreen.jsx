@@ -23,9 +23,9 @@ export const EventsScreen = ({ history }) => {
             <div className="jumbotron jumbotron-secondary">
                 <h2 className="display-5">Sprint</h2>
                 <p className="lead">Es el corazón de Scrum, que representa una iteración cuya duración máxima es de un mes. Se entrega un producto utilizable y potencialmente desplegable.</p>
-                <p> <i class="fa fa-play-circle" aria-hidden="true"></i> Cada Sprint empieza inmediatamente después a la finalización del anterior. </p>
-                <p> <i class="fa fa-check" aria-hidden="true"></i> Todo Sprint tiene un Sprint Goal, el cual es una meta establecida a cumplir en cada iteración. </p>
-                <p> <i class="fa fa-exclamation" aria-hidden="true"></i> Un Sprint solo puede cancelarse si el Sprint Goal queda obsoleto y solo el Product Owner puede darlo por terminado. </p>
+                <p> <i className="fa fa-play-circle" aria-hidden="true"></i> Cada Sprint empieza inmediatamente después a la finalización del anterior. </p>
+                <p> <i className="fa fa-check" aria-hidden="true"></i> Todo Sprint tiene un Sprint Goal, el cual es una meta establecida a cumplir en cada iteración. </p>
+                <p> <i className="fa fa-exclamation" aria-hidden="true"></i> Un Sprint solo puede cancelarse si el Sprint Goal queda obsoleto y solo el Product Owner puede darlo por terminado. </p>
             </div>
 
 

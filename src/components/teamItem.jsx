@@ -8,14 +8,14 @@ export const TeamItem = ({ name, description, functions }) => {
                 <p>{description}</p>
                 <hr />
                 <div className="text-center">
-                    <strong> <i class="fa fa-check" aria-hidden="true"></i> Funciones
+                    <strong> <i className="fa fa-check" aria-hidden="true"></i> Funciones
                 </strong>
                 </div>
                 <ul>
                     {functions.map((func) => {
                         return (
                             <li
-                                key={func.substring(0, 5)}
+                                key={func.substring(0, 10)}
                             >{func}</li>
                         );
                     })}
