@@ -1,9 +1,10 @@
 
 import React from 'react'
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Switch,
     Route,
+    HashRouter,
 } from "react-router-dom";
 import { FadeTransform } from 'react-animation-components';
 import { MainScreen } from '../screens/mainScreen';
@@ -14,7 +15,7 @@ import { Footer } from '../components/footer';
 
 export const AppRouter = () => {
     return (
-        <Router basename={process.env.PUBLIC_URL}>
+        <HashRouter basename='/'>
             <FadeTransform in transformProps={{ enterTransform: 'translateX(0px)' }}>
                 <div className="container mt-5 mb-5">
                     <Switch>
@@ -27,6 +28,6 @@ export const AppRouter = () => {
 
                 <Footer />
             </FadeTransform>
-        </Router>
+        </HashRouter>
     )
 }
