@@ -14,7 +14,7 @@ import { Footer } from '../components/footer';
 
 export const AppRouter = () => {
     return (
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <FadeTransform in transformProps={{ enterTransform: 'translateX(0px)' }}>
                 <div className="container mt-5 mb-5">
                     <Switch>
