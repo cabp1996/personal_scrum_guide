@@ -16,7 +16,7 @@ export const TeamScreen = ({ history }) => {
                 title={'Equipo Scrum'}
                 description={'Grupo de profesionales auto organizados y multidisciplinarios.'}
                 icon={'fa-users'}
-                extra={'Su misión es la entrega iterativa e incremental del producto, esto con el objetivo de obtener el máximo feedback posible y que al final de cada Sprint haya una versión potencialment funcional.'}
+                extra={'Su misión es la entrega iterativa e incremental del producto, esto con el objetivo de obtener el máximo feedback posible y que al final de cada Sprint haya una versión potencialmente funcional.'}
                 extraicon={'fa-lightbulb-o'}
             />
 
